@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Main-class
- * @author's: Vasilev A.O. and Andrianov D.V.
+ * @author Vasilev A.O. and Andrianov D.V.
  * @version 1.0
  */
 
@@ -39,12 +39,12 @@ public class Main
         System.out.println("Unsorted array:");
         ShowArray(arr);
 
-        var srt = new MySort();
-        srt.SortByAscending(arr);
+
+        MySort.SortByAscending(arr);
         System.out.println("Array sorted in ascending order:");
         ShowArray(arr);
 
-        srt.SortByDescending(arr);
+        MySort.SortByDescending(arr);
         System.out.println("Array sorted in descending order:");
         ShowArray(arr);
         System.out.println();

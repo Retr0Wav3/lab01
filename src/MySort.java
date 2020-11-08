@@ -9,7 +9,7 @@ public class MySort
     /** Method for sorting in ascending order
      * @param arr array for sorting
      * */
-    public void SortByAscending(int[] arr)
+    public static void SortByAscending(int[] arr)
     {
         int size = arr.length;
         int temp = 0;
@@ -29,7 +29,7 @@ public class MySort
     /** Method for sorting in descending order
      * @param arr array for sorting
      * */
-    public void SortByDescending(int[] arr)
+    public static void SortByDescending(int[] arr)
     {
         int size = arr.length;
         int temp = 0;
